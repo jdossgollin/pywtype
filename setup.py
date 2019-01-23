@@ -25,7 +25,7 @@ setuptools.setup(
         'numpy >= 1.7',
         'pandas >= 0.15.0',
         'scipy >= 0.16',
-        'scikit-learn >= 1.18',
+        'scikit-learn >= 0.18',
         'xarray >= 0.10.6',
     ],
     #tests_require=['pytest >= 3.3'],
