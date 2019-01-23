@@ -2,24 +2,28 @@
 The wtype object
 """
 
+from typing import Tuple
 import xarray as xr
 
 class WeatherType:
     """
     The object for building a weather typing model
     """
-    def __init__(self, data: xr.DataArray, time_name: str = "time") -> None:
+    def __init__(
+        self, data: xr.DataArray, space_name: Tuple[str],
+        time_name: str = "time") -> None:
         """
         Parameters
         ----------
         data : ``xr.DataArray``, required
-            a data array which *must* be two-dimensional. It may be helpful
-            to use the stack method.
+            the input space-time field
         time_name : ``str``, optional, (default = "time")
             the name of the dimension which indexes time.
+        space_name : ``Tuple[str]``,  required
+            a tuple containing the name of all spatial dimensions
         """
+        data = data.rename({time_name, "time"}).stack(space=space_name)
         assert data.ndim == 2, "data must have two dimensions exactly"
-        data = data.rename({time_name, "time"})
         self.data = data
         raise NotImplementedError
 
