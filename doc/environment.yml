@@ -1,17 +1,10 @@
-name: pywtype
+name: doc
 channels:
   - conda-forge
   - defaults
 dependencies:
   - python>=3.6
-  - jupyter
+  - ipython
   - matplotlib
-  - mypy
-  - netCDF4
-  - pylint
-  - pytest
-  - scikit-learn
-  - scipy
   - sphinx
   - sphinx_rtd_theme
-  - xarray
