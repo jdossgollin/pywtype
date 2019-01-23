@@ -27,6 +27,7 @@ Documentation
    :maxdepth: 1
 
    install
+   api
    license
    help
 
@@ -34,12 +35,13 @@ Get in touch!
 =============
 
 - Troubleshooting: we welcome suggestions for improvement and are happy to help
-you. Please place an `Issue <https://github.com/jdossgollin/pywtype/issues>`_
-on our `Github <https://github.com/jdossgollin.pywtype>`_ repository.
+    you. Please place an
+    `Issue <https://github.com/jdossgollin/pywtype/issues>`_
+    on our `Github <https://github.com/jdossgollin.pywtype>`_ repository.
 - Contributing: We are also actively seeking new developers!  Please get
-in touch by opening an Issue or submitting a Pull Request. We are particularly
-interested in adding new algorithms for weather typing that are of interest
-to the community (i.e., you!)
+    in touch by opening an Issue or submitting a Pull Request. We are
+    particularly interested in adding new algorithms for weather typing that
+    are of interest to the community (i.e., you!)
 
 License
 =======

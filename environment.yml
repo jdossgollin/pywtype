@@ -4,10 +4,13 @@ channels:
   - defaults
 dependencies:
   - python>=3.6
-  - jupyter
+  - cartopy
+  - doc8
+  - ipython
   - matplotlib
   - mypy
   - netCDF4
+  - pandas
   - pylint
   - pytest
   - scikit-learn
