@@ -6,10 +6,12 @@ dependencies:
   - python>=3.6
   - cartopy
   - doc8
+  - eofs
   - ipython
   - matplotlib
   - mypy
   - netCDF4
+  - numba
   - pandas
   - pylint
   - pytest
