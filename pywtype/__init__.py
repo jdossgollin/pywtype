@@ -1,4 +1,3 @@
 """
-Everything the user needs
+This is the default file
 """
-from .core import WeatherType
